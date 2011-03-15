@@ -1,4 +1,4 @@
-gstyle (0.2.1-0~maverick) maverick; urgency=low
+gstyle (0.2.1-0ppa1~maverick) maverick; urgency=low
 
   * fix wallpapers scan
   * add lzma dep
