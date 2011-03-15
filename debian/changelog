@@ -1,7 +1,6 @@
-gstyle (0.2+20100618) lucid; urgency=low
+gstyle (0.2.1-0~maverick) maverick; urgency=low
 
-  * add pt_BR locale
+  * fix wallpapers scan
+  * add lzma dep
 
-
-  * add pt_br locale
  -- Laguillaumie sylvain <s.lagui@gmail.com>  Thu, 03 Dec 2010 01:35:54 +0200
