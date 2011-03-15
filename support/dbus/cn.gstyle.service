@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=cn.gstyle
+Exec=/usr/bin/env python /usr/share/gstyle/support/gstyle-daemon
+User=root

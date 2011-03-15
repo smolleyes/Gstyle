@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Gstyle
+Comment=A gnome theme manager
+GenericName=A gnome theme manager
+Exec=gstyle
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=puzzle
+Categories=Settings
+StartupNotify=true

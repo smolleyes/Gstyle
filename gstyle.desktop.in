@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Gstyle
+_Comment=Customise your gnome desktop and more
+Exec=/usr/bin/gstyle
+Icon=puzzle
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+StartupNotify=true
+Categories=Settings

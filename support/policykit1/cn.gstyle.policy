@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+  <vendor>gstyle</vendor>
+  <vendor_url>http://penguincape.org</vendor_url>
+  <action id="cn.gstyle">
+    <description>gstyle</description>
+    <message>System policy prevents gstyle from launching program as "root"</message>
+    <message xml:lang="es">La política del sistema previene a gstyle ejecutarse como «administrador»</message>
+    <message xml:lang="fr">La politique système empêche gstyle de lancer des programmes en tant que "root"</message>
+    <message xml:lang="he">מדיניות המערכת מונעת מ־gstyle להריץ תוכנה כמשתמש־על</message>
+    <message xml:lang="it">La politica di sistema impedisce ad gstyle di eseguire un programma come "root"</message>
+    <message xml:lang="nl">Systeem beleid voorkomt dat gstyle zal starten als "root"</message>
+    <message xml:lang="pt">Política de sistema previne gstyle de correr programas como "root"</message>
+    <message xml:lang="pt_BR">Política de sistema previne gstyle de rodar programas como "root"</message>
+    <message xml:lang="ru">Системная политика запрещает запуск gstyle с правами "root"</message>
+    <message xml:lang="sv">Systemets policy förhindrar gstyle från att starta program som "root"</message>
+    <message xml:lang="zh_CN">系统策略阻止gstyle以root身份启动程序</message>
+    <message xml:lang="zh_TW">系統原則禁止 gstyle 以 root 權限開啟程式</message>
+    <defaults>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+  </action>
+</policyconfig>

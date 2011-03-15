@@ -1,0 +1,24 @@
+Source: gstyle
+Maintainer: Laguillaumie sylvain <s.lagui@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 7), python-support (>= 0.8.4), python-distutils-extra
+Standards-Version: 3.8.3
+XS-Python-Version: current
+
+Package: gstyle
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+XB-Python-Version: ${python:Versions}
+Provides: ${python:Provides}
+Description: Customise your gnome desktop and more
+ Gstyle is a full gnome theme manager
+ .
+ Features:
+ * manage your gtk/icons/metacity/emerald/mouse/wallpapers...
+ * create dynamic wallpapers
+ * manage your gdm settings and themes
+ * create and manage cubemodels themes for compiz
+ * create/download or export full customised themes
+ .
+ .

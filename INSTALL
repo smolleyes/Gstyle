@@ -1,0 +1,32 @@
+Installing Gstyle
+==================
+
+  Requirements
+  ------------
+
+    * python
+    * python-gtk2
+    * python-glade2
+    * python-metacity
+    * python-beautifulsoup
+    * python-dbus
+    * xcur2png
+    * p7zip-full
+    * policykit-gnome | policykit-kde | policykit-1-gnome
+    * wget
+
+  Installation
+  ------------
+
+    To install Gstyle on rpm based distros, perform the following command as root:
+    
+      $ python setup.py install
+      
+    To install Gstyle on Ubuntu or deb based distros, perform the following command as root:
+    
+      $ python setup.py install --install-layout=deb
+
+  Run Gstyle
+  -----------
+
+	You can launch the program by typing "gstyle" at the command line.

@@ -1,0 +1,8 @@
+include AUTHORS COPYING INSTALL README
+include MANIFEST.in MANIFEST
+include ChangeLog version
+include gstyle*
+recursive-include data *
+recursive-include po *
+recursive-include support *
+recursive-include bin *

@@ -1,0 +1,1875 @@
+# English translations for PACKAGE package.
+# Copyright (C) 2010 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# smo <s.lagui@free.fr>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-08 03:09+0200\n"
+"PO-Revision-Date: 2010-01-28 06:13+0100\n"
+"Last-Translator: smo <s.lagui@free.fr>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: functions.py:84
+msgid "Supported files"
+msgstr "Supported files"
+
+#: functions.py:91
+msgid "All files"
+msgstr "All files"
+
+#: functions.py:111
+msgid "Save..."
+msgstr "Save..."
+
+#: functions.py:266
+msgid "Scan results"
+msgstr "Scan results"
+
+#: functions.py:269
+#, python-format
+msgid ""
+"Scan report for : \n"
+"%s \n"
+"\n"
+" The followings themes are ready to install !"
+msgstr ""
+"Scan report for : \n"
+"%s \n"
+"\n"
+" The followings themes are ready to install !"
+
+#: functions.py:328
+#, python-format
+msgid "Downloading %-66s%3d%% done"
+msgstr "Downloading %-66s%3d%% done"
+
+#: imggen.py:24
+#, fuzzy
+msgid "Button"
+msgstr "button"
+
+#: lib/emerald.py:114 lib/metacity.py:82
+#, fuzzy
+msgid "gksudo -m \"Please enter your password\" ''"
+msgstr "gksudo -m \"Root password needed \" ''"
+
+#: lib/gtk.py:115 lib/icon.py:133
+#, fuzzy
+msgid "gksudo -m \"Root password needed to remove this theme\" ''"
+msgstr "gksudo -m \"Root password needed to apply this theme\" ''"
+
+#: gui/cubemodels.py:36
+msgid "Installed cubemodels theme list"
+msgstr "Installed cubemodels theme list"
+
+#: gui/cubemodels.py:42
+msgid ""
+"cubemodels : \n"
+"Organize, create or download cubemodels themes...\n"
+msgstr ""
+"cubemodels : \n"
+"Organize, create or download cubemodels themes...\n"
+
+#: gui/cubemodels.py:48 gui/fullpacks.py:71
+msgid "Click the refresh button to update the theme list"
+msgstr "Click the refresh button to update the theme list"
+
+#: gui/cubemodels.py:131
+#, python-format
+msgid "Selected cubemodels theme : %s"
+msgstr "Selected cubemodels theme : %s"
+
+#: gui/cubemodels.py:143
+#, python-format
+msgid "Selected cubemodels download : %s"
+msgstr "Selected cubemodels download : %s"
+
+#: gui/cubemodels.py:147
+msgid "Choose a tar.lzma file"
+msgstr "Choose a tar.lzma file"
+
+#: gui/cubemodels.py:192
+#, python-format
+msgid "Cubemodel theme %s successfully activated"
+msgstr "Cubemodel theme %s successfully activated"
+
+#: gui/cubemodels.py:195
+#, fuzzy
+msgid "Remove cubemodels themes"
+msgstr "Remove icons themes"
+
+#: gui/cubemodels.py:196
+#, fuzzy, python-format
+msgid ""
+"Are you sure you want to delete the cubemodels Theme \n"
+" %s ?"
+msgstr ""
+"Are you sure you want to delete the icons Theme \n"
+" %s ?"
+
+#: gui/cubemodels.py:200
+#, python-format
+msgid "Cubemodel theme %s successfully removed"
+msgstr "Cubemodel theme %s successfully removed"
+
+#: gui/cubemodels.py:208 gui/fullpacks.py:676
+msgid "Choose a thumbnail file"
+msgstr "Choose a thumbnail file"
+
+#: gui/cubemodels.py:262 gui/fullpacks.py:274
+#, fuzzy, python-format
+msgid "%d available themes"
+msgstr "%s available themes"
+
+#: gui/emerald.py:57
+msgid ""
+"Window decoration :\n"
+"Manage and install your metacity/emerald themes"
+msgstr ""
+"Window decoration :\n"
+"Manage and install your metacity/emerald themes"
+
+#: gui/emerald.py:58 gui/icon.py:36 gui/metacity.py:87 gui/wallpapers.py:107
+#: gui/wallpapers.py:192
+msgid "Available themes list"
+msgstr "Available themes list"
+
+#: gui/emerald.py:65
+msgid "Choose a .emerald file"
+msgstr "Choose a .emerald file"
+
+#: gui/emerald.py:146
+#, python-format
+msgid ""
+"Author : %(author)s \n"
+"Version : %(version)s \n"
+"Suggested gtk/Qt theme : %(suggested)s \n"
+"Description : %(description)s"
+msgstr ""
+"Author : %(author)s \n"
+"Version : %(version)s \n"
+"Suggested gtk/Qt theme : %(suggested)s \n"
+"Description : %(description)s"
+
+#: gui/emerald.py:154
+#, python-format
+msgid "Selected emerald theme : %s"
+msgstr "Selected emerald theme : %s"
+
+#: gui/emerald.py:161
+#, python-format
+msgid "Emerald theme \"%s\" successfully activated"
+msgstr "Emerald theme \"%s\" successfully activated"
+
+#: gui/emerald.py:164
+msgid "Remove emerald theme"
+msgstr "Remove emerald theme"
+
+#: gui/emerald.py:164
+#, python-format
+msgid ""
+"Are you sure you want to delete the Emerald Theme \n"
+"%s ?"
+msgstr ""
+"Are you sure you want to delete the Emerald Theme \n"
+"%s ?"
+
+#: gui/emerald.py:170
+#, python-format
+msgid "Emerald theme %s removed successfully"
+msgstr "Emerald theme %s removed successfully"
+
+#: gui/fullpacks.py:61
+#, fuzzy
+msgid "Installed fullpack theme list"
+msgstr "Installed mouse themes list"
+
+#: gui/fullpacks.py:67
+#, fuzzy
+msgid ""
+"Fullpacks : \n"
+"Organize, create or download fullpack themes...\n"
+msgstr ""
+"cubemodels : \n"
+"Organize, create or download cubemodels themes...\n"
+
+#: gui/fullpacks.py:89 gui/wallpapers.py:172
+msgid "Preview"
+msgstr "Preview"
+
+#: gui/fullpacks.py:93
+msgid "Fullpack name"
+msgstr "Fullpack name"
+
+#: gui/fullpacks.py:226
+#, fuzzy
+msgid "Choose a fullpack archive file"
+msgstr "Choose a thumbnail file"
+
+#: gui/fullpacks.py:245
+#, fuzzy, python-format
+msgid "Fullpack %s successfully activated"
+msgstr "wallpaper \"%s\" successfully activated"
+
+#: gui/fullpacks.py:248
+#, fuzzy
+msgid "Remove fullpack themes"
+msgstr "Remove Gtk themes"
+
+#: gui/fullpacks.py:249
+#, fuzzy, python-format
+msgid ""
+"Are you sure you want to delete the fullpack Theme \n"
+" %s ?"
+msgstr ""
+"Are you sure you want to delete the gtk Theme \n"
+" %s ?"
+
+#: gui/fullpacks.py:253
+#, fuzzy, python-format
+msgid "Fullpack theme %s successfully removed"
+msgstr "Cubemodel theme %s successfully removed"
+
+#: gui/fullpacks.py:286
+#, fuzzy, python-format
+msgid "Selected fullpack theme : %s"
+msgstr "Selected wallpaper theme : %s"
+
+#: gui/fullpacks.py:322
+#, fuzzy, python-format
+msgid "Selected fullpack download : %s"
+msgstr "Selected cubemodels download : %s"
+
+#: gui/fullpacks.py:585
+msgid "Please enter a name for your theme"
+msgstr "Please enter a name for your theme"
+
+#: gui/fullpacks.py:606
+msgid "Please select a preview image for your theme"
+msgstr "Please select a preview image for your theme"
+
+#: gui/fullpacks.py:619
+#, fuzzy, python-format
+msgid "fullpack %s successfully created"
+msgstr "wallpaper \"%s\" successfully activated"
+
+#: gui/fullpacks.py:621
+#, fuzzy, python-format
+msgid "fullpack %s successfully saved"
+msgstr "wallpaper \"%s\" successfully activated"
+
+#: gui/fullpacks.py:769
+#, fuzzy, python-format
+msgid "Fullpack %s successfully exported!"
+msgstr "wallpaper \"%s\" successfully activated"
+
+#: gui/gtk_gui.py:32
+msgid ""
+"Gtk-themes:\n"
+"Manage and install your Gtk themes..."
+msgstr ""
+"Gtk-themes:\n"
+"Manage and install your Gtk themes..."
+
+#: gui/gtk_gui.py:80
+#, python-format
+msgid "Gtk theme %s selected"
+msgstr "Gtk theme %s selected"
+
+#: gui/gtk_gui.py:88
+#, fuzzy
+msgid "Choose a tar/bz2 file"
+msgstr "Choose a tar.gz/bz2 file"
+
+#: gui/gtk_gui.py:159
+msgid "Remove Gtk themes"
+msgstr "Remove Gtk themes"
+
+#: gui/gtk_gui.py:160
+#, python-format
+msgid ""
+"Are you sure you want to delete the gtk Theme \n"
+" %s ?"
+msgstr ""
+"Are you sure you want to delete the gtk Theme \n"
+" %s ?"
+
+#: gui/gtk_gui.py:168
+#, python-format
+msgid "Gtk theme %s removed successfully"
+msgstr "Gtk theme %s removed successfully"
+
+#: gui/icon.py:33
+#, fuzzy
+msgid ""
+"Icons:\n"
+"Manage and install your icons themes"
+msgstr ""
+"Icons:\n"
+"Manage and install your icons themes..."
+
+#: gui/icon.py:68
+msgid ""
+"Icons:\n"
+"Manage and install your icons themes..."
+msgstr ""
+"Icons:\n"
+"Manage and install your icons themes..."
+
+#: gui/icon.py:126
+#, fuzzy
+msgid "Choose an icon image"
+msgstr "Selected icons theme : %s"
+
+#: gui/icon.py:187
+#, fuzzy
+msgid "gstyle need your password to apply the menu image"
+msgstr "Gstyle need your password to start Xsplash preview"
+
+#: gui/icon.py:289
+msgid "Choose a tar.gz/bz2 file"
+msgstr "Choose a tar.gz/bz2 file"
+
+#: gui/icon.py:327
+#, python-format
+msgid "Icons theme  %s successfully activated"
+msgstr "Icons theme  %s successfully activated"
+
+#: gui/icon.py:330
+msgid "Remove icons themes"
+msgstr "Remove icons themes"
+
+#: gui/icon.py:331
+#, python-format
+msgid ""
+"Are you sure you want to delete the icons Theme \n"
+" %s ?"
+msgstr ""
+"Are you sure you want to delete the icons Theme \n"
+" %s ?"
+
+#: gui/icon.py:337
+#, python-format
+msgid "Icons themes %s removed successfully"
+msgstr "Icons themes %s removed successfully"
+
+#: gui/icon.py:351 gui/mouse.py:77
+#, python-format
+msgid "Description : %s"
+msgstr "Description : %s"
+
+#: gui/icon.py:352
+#, python-format
+msgid "Selected icons theme : %s"
+msgstr "Selected icons theme : %s"
+
+#: gui/metacity.py:72
+msgid "Name"
+msgstr "Name"
+
+#: gui/metacity.py:86
+#, fuzzy
+msgid ""
+"Window decoration :\n"
+"Manage and install your Metacity/Emerald themes"
+msgstr ""
+"Window decoration :\n"
+"Manage and install your metacity/emerald themes"
+
+#: gui/metacity.py:130
+msgid "Choose a tar/bz2/gz file"
+msgstr "Choose a tar/bz2/gz file"
+
+#: gui/metacity.py:181
+#, python-format
+msgid "Selected metacity theme : %s"
+msgstr "Selected metacity theme : %s"
+
+#: gui/metacity.py:191
+#, fuzzy, python-format
+msgid "Metacity theme  %s successfully activated"
+msgstr "metacity theme \"%s\" successfully activated"
+
+#: gui/metacity.py:194
+msgid "Remove metacity theme"
+msgstr "Remove metacity theme"
+
+#: gui/metacity.py:194
+#, python-format
+msgid ""
+"Are you sure you want to delete the metacity Theme \n"
+"%s ?"
+msgstr ""
+"Are you sure you want to delete the metacity Theme \n"
+"%s ?"
+
+#: gui/metacity.py:199
+#, python-format
+msgid "metacity theme %s removed successfully"
+msgstr "metacity theme %s removed successfully"
+
+#: gui/mouse.py:27
+msgid "Installed mouse themes list"
+msgstr "Installed mouse themes list"
+
+#: gui/mouse.py:34
+msgid ""
+"\n"
+"mouse themes : \n"
+"Organize your mouse themes...\n"
+msgstr ""
+"\n"
+"mouse themes : \n"
+"Organize your mouse themes...\n"
+
+#: gui/mouse.py:71
+#, fuzzy
+msgid "No_description"
+msgstr "Description : %s"
+
+#: gui/mouse.py:78
+#, python-format
+msgid "Selected mouse theme : %s"
+msgstr "Selected mouse theme : %s"
+
+#: gui/mouse.py:82
+msgid "Choose a gz/bz2/tar file"
+msgstr "Choose a gz/bz2/tar file"
+
+#: gui/mouse.py:125
+#, python-format
+msgid "Mouse theme  %s successfully activated"
+msgstr "Mouse theme  %s successfully activated"
+
+#: gui/mouse.py:128
+msgid "Remove mouse themes"
+msgstr "Remove mouse themes"
+
+#: gui/mouse.py:129
+#, python-format
+msgid ""
+"Are you sure you want to delete the mouse Theme \n"
+" %s ?"
+msgstr ""
+"Are you sure you want to delete the mouse Theme \n"
+" %s ?"
+
+#: gui/mouse.py:135
+#, python-format
+msgid "Mouse theme %s removed successfully"
+msgstr "Mouse theme %s removed successfully"
+
+#: gui/wallpapers.py:73
+#, fuzzy
+msgid ""
+"Wallpaper :\n"
+"Manage and install your wallpapers or walltimes themes"
+msgstr ""
+"Wallpapers :\n"
+"Manage and install your wallpapers or walltimes themes"
+
+#: gui/wallpapers.py:248
+#, python-format
+msgid "Selected wallpaper theme : %s"
+msgstr "Selected wallpaper theme : %s"
+
+#: gui/wallpapers.py:290
+#, fuzzy, python-format
+msgid "Selected walldyns : %s"
+msgstr "Selected wallpaper theme : %s"
+
+#: gui/wallpapers.py:398
+#, python-format
+msgid "wallpaper \"%s\" successfully activated"
+msgstr "wallpaper \"%s\" successfully activated"
+
+#: gui/wallpapers.py:414
+msgid "Remove wallpaper"
+msgstr "Remove wallpaper"
+
+#: gui/wallpapers.py:414
+#, python-format
+msgid ""
+"Are you sure you want to delete the wallpapers Theme \n"
+"%s ?"
+msgstr ""
+"Are you sure you want to delete the wallpapers Theme \n"
+"%s ?"
+
+#: gui/wallpapers.py:425
+#, fuzzy, python-format
+msgid "%s %s removed successfully"
+msgstr "Mouse theme %s removed successfully"
+
+#: gui/wallpapers.py:438
+msgid "Choose a wallpaper"
+msgstr "Choose a wallpaper"
+
+#: gui/wallpapers.py:531
+msgid "Enter a name for your walldyn (no spaces)"
+msgstr "Enter a name for your walldyn (no spaces)"
+
+#: gui/wallpapers.py:745
+#, fuzzy
+msgid "Choose an image"
+msgstr "Choose a wallpaper"
+
+#: gui/xsplash.py:39
+#, fuzzy
+msgid ""
+"Gdm:\n"
+"Select your gtk/icons and wallpaper theme for gdm and choose your login "
+"options"
+msgstr ""
+"Select your gtk/icons and wallpaper theme for gdm or/and select a xsplash "
+"image to use"
+
+#: data/glade/Gstyle.glade:24
+msgid "Full themes"
+msgstr "Full themes"
+
+#: data/glade/Gstyle.glade:37
+msgid "Gtk themes"
+msgstr "Gtk themes"
+
+#: data/glade/Gstyle.glade:50
+msgid "Icons themes"
+msgstr "Icons themes"
+
+#: data/glade/Gstyle.glade:63 data/glade/Gstyle.glade:1044
+msgid "Wallpapers"
+msgstr "Wallpapers"
+
+#: data/glade/Gstyle.glade:76
+msgid ""
+"  Window\n"
+"decoration"
+msgstr ""
+"  Window\n"
+"decoration"
+
+#: data/glade/Gstyle.glade:90
+msgid "Mouse themes"
+msgstr "Mouse themes"
+
+#: data/glade/Gstyle.glade:103
+msgid "Gdm"
+msgstr "Gdm"
+
+#: data/glade/Gstyle.glade:116
+msgid "Cubemodels"
+msgstr "Cubemodels"
+
+#: data/glade/Gstyle.glade:129
+msgid "About Gstyle"
+msgstr "About Gstyle"
+
+#: data/glade/Gstyle.glade:174
+#, fuzzy
+msgid "<b>Theme installer :</b>"
+msgstr "<b>Themes manager :</b>"
+
+#: data/glade/Gstyle.glade:289
+msgid "<b>Themes manager :</b>"
+msgstr "<b>Themes manager :</b>"
+
+#: data/glade/Gstyle.glade:399 data/glade/Gstyle.glade:2255
+#: data/glade/Gstyle.glade:2464 data/glade/Gstyle.glade:2688
+#: data/glade/Gstyle.glade:4362 data/glade/Gstyle.glade:4763
+msgid "Manage"
+msgstr "Manage"
+
+#: data/glade/Gstyle.glade:428
+msgid "Enter a name for your theme then choose a 100x100px png image\n"
+msgstr "Enter a name for your theme then choose a 100x100px png image\n"
+
+#: data/glade/Gstyle.glade:443
+msgid "Enter a name :"
+msgstr "Enter a name :"
+
+#: data/glade/Gstyle.glade:475
+msgid "image path:"
+msgstr "image path:"
+
+#: data/glade/Gstyle.glade:551
+msgid "<b>Parametres :</b>"
+msgstr "<b>Parametres :</b>"
+
+#: data/glade/Gstyle.glade:573
+msgid "Create"
+msgstr "Create"
+
+#: data/glade/Gstyle.glade:636 data/glade/Gstyle.glade:867
+#: data/glade/Gstyle.glade:1083 data/glade/Gstyle.glade:2573
+#: data/glade/Gstyle.glade:4425 data/glade/Gstyle.glade:4648
+#: data/glade/Gstyle.glade:4868
+msgid "<b>Informations :</b>"
+msgstr "<b>Informations :</b>"
+
+#: data/glade/Gstyle.glade:715 data/glade/Gstyle.glade:759
+#: data/glade/Gstyle.glade:4503 data/glade/Gstyle.glade:4545
+msgid "Download"
+msgstr "Download"
+
+#: data/glade/Gstyle.glade:902
+#, fuzzy
+msgid "Style : "
+msgstr "Style"
+
+#: data/glade/Gstyle.glade:923
+msgid "Color : "
+msgstr "Color : "
+
+#: data/glade/Gstyle.glade:1147
+msgid "this section define the main starting date for your walltime"
+msgstr "this section define the main starting date for your walltime"
+
+#: data/glade/Gstyle.glade:1163
+msgid "Year :"
+msgstr "Year :"
+
+#: data/glade/Gstyle.glade:1187
+#, fuzzy
+msgid "Month : "
+msgstr "Icons theme :"
+
+#: data/glade/Gstyle.glade:1212
+#, fuzzy
+msgid "Day : "
+msgstr "Name"
+
+#: data/glade/Gstyle.glade:1252
+msgid "Hours :"
+msgstr "Hours :"
+
+#: data/glade/Gstyle.glade:1275
+#, fuzzy
+msgid "Minutes : "
+msgstr "Licence : "
+
+#: data/glade/Gstyle.glade:1299
+msgid "Seconds : "
+msgstr "Seconds : "
+
+#: data/glade/Gstyle.glade:1331
+#, fuzzy
+msgid "<b>Main timing</b>"
+msgstr "<b>Gtk themes selector :</b>"
+
+#: data/glade/Gstyle.glade:1382
+msgid "Add static"
+msgstr "Add static"
+
+#: data/glade/Gstyle.glade:1419
+msgid "Add transition"
+msgstr "Add transition"
+
+#: data/glade/Gstyle.glade:1578
+msgid "WallDyn"
+msgstr "WallDyn"
+
+#: data/glade/Gstyle.glade:1704
+#, fuzzy
+msgid "Select a gtk theme :     "
+msgstr "Selected wallpaper theme : %s"
+
+#: data/glade/Gstyle.glade:1715
+#, fuzzy
+msgid "Gtk theme"
+msgstr "Gtk themes"
+
+#: data/glade/Gstyle.glade:1790
+#, fuzzy
+msgid "Select a icon theme :   "
+msgstr "Selected icons theme : %s"
+
+#: data/glade/Gstyle.glade:1801
+#, fuzzy
+msgid "Icons theme"
+msgstr "Icons themes"
+
+#: data/glade/Gstyle.glade:1876
+#, fuzzy
+msgid "Select a background :  "
+msgstr "Background :"
+
+#: data/glade/Gstyle.glade:1887
+#, fuzzy
+msgid "Background"
+msgstr "select a background"
+
+#: data/glade/Gstyle.glade:1977
+msgid "Automatic setup"
+msgstr "Automatic setup"
+
+#: data/glade/Gstyle.glade:1996
+#, fuzzy
+msgid "Synchronise gdm with your current theme"
+msgstr "Synchronise gdm and xsplash with your current themes"
+
+#: data/glade/Gstyle.glade:2018
+#, fuzzy
+msgid "<b>Gdm theme </b>"
+msgstr "<b>Gtk themes selector :</b>"
+
+#: data/glade/Gstyle.glade:2053
+msgid "Auto login as : "
+msgstr "Auto login as : "
+
+#: data/glade/Gstyle.glade:2068
+msgid "users"
+msgstr "users"
+
+#: data/glade/Gstyle.glade:2096
+msgid "Show login screen"
+msgstr "Show login screen"
+
+#: data/glade/Gstyle.glade:2111
+msgid "Display user list"
+msgstr "Display user list"
+
+#: data/glade/Gstyle.glade:2140
+msgid "Play sound at login"
+msgstr "Play sound at login"
+
+#: data/glade/Gstyle.glade:2152
+msgid "Disable restart buttons"
+msgstr "Disable restart buttons"
+
+#: data/glade/Gstyle.glade:2167
+msgid "Enable welcome message : "
+msgstr "Enable welcome message : "
+
+#: data/glade/Gstyle.glade:2223
+#, fuzzy
+msgid "<b>Options : </b>"
+msgstr "<b>Informations :</b>"
+
+#: data/glade/Gstyle.glade:2353
+msgid "<b>Gtk themes selector :</b>"
+msgstr "<b>Gtk themes selector :</b>"
+
+#: data/glade/Gstyle.glade:2717
+msgid "Select an icon for your gnome panel menu"
+msgstr "Select an icon for your gnome panel menu"
+
+#: data/glade/Gstyle.glade:2761
+msgid "Add or remove panel icons"
+msgstr "Add or remove panel icons"
+
+#: data/glade/Gstyle.glade:2812
+#, fuzzy
+msgid "<b>Gnome panel icon : </b>"
+msgstr "<b>Informations :</b>"
+
+#: data/glade/Gstyle.glade:2843
+msgid "menus have icons"
+msgstr "menus have icons"
+
+#: data/glade/Gstyle.glade:2865
+msgid "buttons have icons"
+msgstr "buttons have icons"
+
+#: data/glade/Gstyle.glade:2884
+msgid "computer icon visible"
+msgstr "computer icon visible"
+
+#: data/glade/Gstyle.glade:2898
+msgid "home icon visible"
+msgstr "home icon visible"
+
+#: data/glade/Gstyle.glade:2912
+msgid "trash icon visible"
+msgstr "trash icon visible"
+
+#: data/glade/Gstyle.glade:2926
+msgid "volumes visible"
+msgstr "volumes visible"
+
+#: data/glade/Gstyle.glade:2940
+msgid "network icon visible"
+msgstr "network icon visible"
+
+#: data/glade/Gstyle.glade:2959
+#, fuzzy
+msgid "<b>Gconf options : </b>"
+msgstr "<b>Informations :</b>"
+
+#: data/glade/Gstyle.glade:2982
+msgid "Options"
+msgstr "Options"
+
+#: data/glade/Gstyle.glade:3084
+msgid "<b>Themes manager : </b>"
+msgstr "<b>Themes manager : </b>"
+
+#: data/glade/Gstyle.glade:3163
+#, fuzzy
+msgid "Name : "
+msgstr "Name"
+
+#: data/glade/Gstyle.glade:3197
+msgid "Author : "
+msgstr "Author : "
+
+#: data/glade/Gstyle.glade:3231
+msgid "Licence : "
+msgstr "Licence : "
+
+#: data/glade/Gstyle.glade:3265
+msgid "Website : "
+msgstr "Website : "
+
+#: data/glade/Gstyle.glade:3299
+#, fuzzy
+msgid "Preview image :"
+msgstr "Preview"
+
+#: data/glade/Gstyle.glade:3347
+#, fuzzy
+msgid "<b>fullpack details : </b>"
+msgstr "<b>Gtk themes selector :</b>"
+
+#: data/glade/Gstyle.glade:3398
+#, fuzzy
+msgid "Gtk theme :  "
+msgstr "Gtk theme :"
+
+#: data/glade/Gstyle.glade:3427 data/glade/Gstyle.glade:3530
+#: data/glade/Gstyle.glade:3633 data/glade/Gstyle.glade:3736
+#: data/glade/Gstyle.glade:3843 data/glade/Gstyle.glade:3946
+#: data/glade/Gstyle.glade:4049 data/glade/Gstyle.glade:4152
+#, fuzzy
+msgid "Select a theme"
+msgstr "Selected emerald theme : %s"
+
+#: data/glade/Gstyle.glade:3501
+#, fuzzy
+msgid "Icons theme :  "
+msgstr "Icons theme :"
+
+#: data/glade/Gstyle.glade:3604
+#, fuzzy
+msgid "Wallpaper :  "
+msgstr "Wallpapers"
+
+#: data/glade/Gstyle.glade:3707
+#, fuzzy
+msgid "Metacity theme :  "
+msgstr "<b>Gtk themes selector :</b>"
+
+#: data/glade/Gstyle.glade:3814
+#, fuzzy
+msgid "Emerald theme :  "
+msgstr "<b>Parametres :</b>"
+
+#: data/glade/Gstyle.glade:3917
+#, fuzzy
+msgid "Mouse theme :  "
+msgstr "Mouse themes"
+
+#: data/glade/Gstyle.glade:4020
+#, fuzzy
+msgid "Walldyn :  "
+msgstr "WallDyn"
+
+#: data/glade/Gstyle.glade:4123
+#, fuzzy
+msgid "Cubemodel theme :  "
+msgstr "<b>Themes manager :</b>"
+
+#: data/glade/Gstyle.glade:4216
+#, fuzzy
+msgid "<b>Elements : </b>"
+msgstr "<b>Parametres :</b>"
+
+#: data/glade/Gstyle.glade:4271
+msgid "Export"
+msgstr "Export"
+
+#: data/glade/Gstyle.glade:4944
+msgid "Lucid"
+msgstr "Lucid"
+
+#: data/glade/Gstyle.glade:4958
+msgid "Karmic"
+msgstr "Karmic"
+
+#: data/glade/Gstyle.glade:4973
+msgid "Mac"
+msgstr "Mac"
+
+#: data/glade/Gstyle.glade:4988
+msgid "Custom"
+msgstr "Custom"
+
+#: data/glade/Gstyle.glade:5060
+#, fuzzy
+msgid "<b>Buttons layout :</b>"
+msgstr "Icons theme :"
+
+#: data/glade/Gstyle.glade:5150
+msgid "Metacity"
+msgstr "Metacity"
+
+#: data/glade/Gstyle.glade:5190
+msgid "<b>Theme informations :</b>"
+msgstr "<b>Theme informations :</b>"
+
+#: data/glade/Gstyle.glade:5306
+msgid "Emerald"
+msgstr "Emerald"
+
+#: data/glade/Gstyle.glade:5389
+msgid "<b>Current Operations :</b>"
+msgstr "<b>Current Operations :</b>"
+
+#: data/glade/Gstyle.glade:5437
+msgid "À propos de Gstyle"
+msgstr "À propos de Gstyle"
+
+#: data/glade/Gstyle.glade:5443
+msgid ""
+"  GNU GENERAL PUBLIC LICENSE\n"
+"\t\t       Version 2, June 1991\n"
+"\n"
+" Copyright (C) 1989, 1991 Free Software Foundation, Inc.,\n"
+" 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA\n"
+" Everyone is permitted to copy and distribute verbatim copies\n"
+" of this license document, but changing it is not allowed.\n"
+"\n"
+"\t\t\t    Preamble\n"
+"\n"
+"  The licenses for most software are designed to take away your\n"
+"freedom to share and change it.  By contrast, the GNU General Public\n"
+"License is intended to guarantee your freedom to share and change free\n"
+"software--to make sure the software is free for all its users.  This\n"
+"General Public License applies to most of the Free Software\n"
+"Foundation's software and to any other program whose authors commit to\n"
+"using it.  (Some other Free Software Foundation software is covered by\n"
+"the GNU Lesser General Public License instead.)  You can apply it to\n"
+"your programs, too.\n"
+"\n"
+"  When we speak of free software, we are referring to freedom, not\n"
+"price.  Our General Public Licenses are designed to make sure that you\n"
+"have the freedom to distribute copies of free software (and charge for\n"
+"this service if you wish), that you receive source code or can get it\n"
+"if you want it, that you can change the software or use pieces of it\n"
+"in new free programs; and that you know you can do these things.\n"
+"\n"
+"  To protect your rights, we need to make restrictions that forbid\n"
+"anyone to deny you these rights or to ask you to surrender the rights.\n"
+"These restrictions translate to certain responsibilities for you if you\n"
+"distribute copies of the software, or if you modify it.\n"
+"\n"
+"  For example, if you distribute copies of such a program, whether\n"
+"gratis or for a fee, you must give the recipients all the rights that\n"
+"you have.  You must make sure that they, too, receive or can get the\n"
+"source code.  And you must show them these terms so they know their\n"
+"rights.\n"
+"\n"
+"  We protect your rights with two steps: (1) copyright the software, and\n"
+"(2) offer you this license which gives you legal permission to copy,\n"
+"distribute and/or modify the software.\n"
+"\n"
+"  Also, for each author's protection and ours, we want to make certain\n"
+"that everyone understands that there is no warranty for this free\n"
+"software.  If the software is modified by someone else and passed on, we\n"
+"want its recipients to know that what they have is not the original, so\n"
+"that any problems introduced by others will not reflect on the original\n"
+"authors' reputations.\n"
+"\n"
+"  Finally, any free program is threatened constantly by software\n"
+"patents.  We wish to avoid the danger that redistributors of a free\n"
+"program will individually obtain patent licenses, in effect making the\n"
+"program proprietary.  To prevent this, we have made it clear that any\n"
+"patent must be licensed for everyone's free use or not licensed at all.\n"
+"\n"
+"  The precise terms and conditions for copying, distribution and\n"
+"modification follow.\n"
+"\n"
+"\t\t    GNU GENERAL PUBLIC LICENSE\n"
+"   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n"
+"\n"
+"  0. This License applies to any program or other work which contains\n"
+"a notice placed by the copyright holder saying it may be distributed\n"
+"under the terms of this General Public License.  The \"Program\", below,\n"
+"refers to any such program or work, and a \"work based on the Program\"\n"
+"means either the Program or any derivative work under copyright law:\n"
+"that is to say, a work containing the Program or a portion of it,\n"
+"either verbatim or with modifications and/or translated into another\n"
+"language.  (Hereinafter, translation is included without limitation in\n"
+"the term \"modification\".)  Each licensee is addressed as \"you\".\n"
+"\n"
+"Activities other than copying, distribution and modification are not\n"
+"covered by this License; they are outside its scope.  The act of\n"
+"running the Program is not restricted, and the output from the Program\n"
+"is covered only if its contents constitute a work based on the\n"
+"Program (independent of having been made by running the Program).\n"
+"Whether that is true depends on what the Program does.\n"
+"\n"
+"  1. You may copy and distribute verbatim copies of the Program's\n"
+"source code as you receive it, in any medium, provided that you\n"
+"conspicuously and appropriately publish on each copy an appropriate\n"
+"copyright notice and disclaimer of warranty; keep intact all the\n"
+"notices that refer to this License and to the absence of any warranty;\n"
+"and give any other recipients of the Program a copy of this License\n"
+"along with the Program.\n"
+"\n"
+"You may charge a fee for the physical act of transferring a copy, and\n"
+"you may at your option offer warranty protection in exchange for a fee.\n"
+"\n"
+"  2. You may modify your copy or copies of the Program or any portion\n"
+"of it, thus forming a work based on the Program, and copy and\n"
+"distribute such modifications or work under the terms of Section 1\n"
+"above, provided that you also meet all of these conditions:\n"
+"\n"
+"    a) You must cause the modified files to carry prominent notices\n"
+"    stating that you changed the files and the date of any change.\n"
+"\n"
+"    b) You must cause any work that you distribute or publish, that in\n"
+"    whole or in part contains or is derived from the Program or any\n"
+"    part thereof, to be licensed as a whole at no charge to all third\n"
+"    parties under the terms of this License.\n"
+"\n"
+"    c) If the modified program normally reads commands interactively\n"
+"    when run, you must cause it, when started running for such\n"
+"    interactive use in the most ordinary way, to print or display an\n"
+"    announcement including an appropriate copyright notice and a\n"
+"    notice that there is no warranty (or else, saying that you provide\n"
+"    a warranty) and that users may redistribute the program under\n"
+"    these conditions, and telling the user how to view a copy of this\n"
+"    License.  (Exception: if the Program itself is interactive but\n"
+"    does not normally print such an announcement, your work based on\n"
+"    the Program is not required to print an announcement.)\n"
+"\n"
+"These requirements apply to the modified work as a whole.  If\n"
+"identifiable sections of that work are not derived from the Program,\n"
+"and can be reasonably considered independent and separate works in\n"
+"themselves, then this License, and its terms, do not apply to those\n"
+"sections when you distribute them as separate works.  But when you\n"
+"distribute the same sections as part of a whole which is a work based\n"
+"on the Program, the distribution of the whole must be on the terms of\n"
+"this License, whose permissions for other licensees extend to the\n"
+"entire whole, and thus to each and every part regardless of who wrote it.\n"
+"\n"
+"Thus, it is not the intent of this section to claim rights or contest\n"
+"your rights to work written entirely by you; rather, the intent is to\n"
+"exercise the right to control the distribution of derivative or\n"
+"collective works based on the Program.\n"
+"\n"
+"In addition, mere aggregation of another work not based on the Program\n"
+"with the Program (or with a work based on the Program) on a volume of\n"
+"a storage or distribution medium does not bring the other work under\n"
+"the scope of this License.\n"
+"\n"
+"  3. You may copy and distribute the Program (or a work based on it,\n"
+"under Section 2) in object code or executable form under the terms of\n"
+"Sections 1 and 2 above provided that you also do one of the following:\n"
+"\n"
+"    a) Accompany it with the complete corresponding machine-readable\n"
+"    source code, which must be distributed under the terms of Sections\n"
+"    1 and 2 above on a medium customarily used for software interchange; "
+"or,\n"
+"\n"
+"    b) Accompany it with a written offer, valid for at least three\n"
+"    years, to give any third party, for a charge no more than your\n"
+"    cost of physically performing source distribution, a complete\n"
+"    machine-readable copy of the corresponding source code, to be\n"
+"    distributed under the terms of Sections 1 and 2 above on a medium\n"
+"    customarily used for software interchange; or,\n"
+"\n"
+"    c) Accompany it with the information you received as to the offer\n"
+"    to distribute corresponding source code.  (This alternative is\n"
+"    allowed only for noncommercial distribution and only if you\n"
+"    received the program in object code or executable form with such\n"
+"    an offer, in accord with Subsection b above.)\n"
+"\n"
+"The source code for a work means the preferred form of the work for\n"
+"making modifications to it.  For an executable work, complete source\n"
+"code means all the source code for all modules it contains, plus any\n"
+"associated interface definition files, plus the scripts used to\n"
+"control compilation and installation of the executable.  However, as a\n"
+"special exception, the source code distributed need not include\n"
+"anything that is normally distributed (in either source or binary\n"
+"form) with the major components (compiler, kernel, and so on) of the\n"
+"operating system on which the executable runs, unless that component\n"
+"itself accompanies the executable.\n"
+"\n"
+"If distribution of executable or object code is made by offering\n"
+"access to copy from a designated place, then offering equivalent\n"
+"access to copy the source code from the same place counts as\n"
+"distribution of the source code, even though third parties are not\n"
+"compelled to copy the source along with the object code.\n"
+"\n"
+"  4. You may not copy, modify, sublicense, or distribute the Program\n"
+"except as expressly provided under this License.  Any attempt\n"
+"otherwise to copy, modify, sublicense or distribute the Program is\n"
+"void, and will automatically terminate your rights under this License.\n"
+"However, parties who have received copies, or rights, from you under\n"
+"this License will not have their licenses terminated so long as such\n"
+"parties remain in full compliance.\n"
+"\n"
+"  5. You are not required to accept this License, since you have not\n"
+"signed it.  However, nothing else grants you permission to modify or\n"
+"distribute the Program or its derivative works.  These actions are\n"
+"prohibited by law if you do not accept this License.  Therefore, by\n"
+"modifying or distributing the Program (or any work based on the\n"
+"Program), you indicate your acceptance of this License to do so, and\n"
+"all its terms and conditions for copying, distributing or modifying\n"
+"the Program or works based on it.\n"
+"\n"
+"  6. Each time you redistribute the Program (or any work based on the\n"
+"Program), the recipient automatically receives a license from the\n"
+"original licensor to copy, distribute or modify the Program subject to\n"
+"these terms and conditions.  You may not impose any further\n"
+"restrictions on the recipients' exercise of the rights granted herein.\n"
+"You are not responsible for enforcing compliance by third parties to\n"
+"this License.\n"
+"\n"
+"  7. If, as a consequence of a court judgment or allegation of patent\n"
+"infringement or for any other reason (not limited to patent issues),\n"
+"conditions are imposed on you (whether by court order, agreement or\n"
+"otherwise) that contradict the conditions of this License, they do not\n"
+"excuse you from the conditions of this License.  If you cannot\n"
+"distribute so as to satisfy simultaneously your obligations under this\n"
+"License and any other pertinent obligations, then as a consequence you\n"
+"may not distribute the Program at all.  For example, if a patent\n"
+"license would not permit royalty-free redistribution of the Program by\n"
+"all those who receive copies directly or indirectly through you, then\n"
+"the only way you could satisfy both it and this License would be to\n"
+"refrain entirely from distribution of the Program.\n"
+"\n"
+"If any portion of this section is held invalid or unenforceable under\n"
+"any particular circumstance, the balance of the section is intended to\n"
+"apply and the section as a whole is intended to apply in other\n"
+"circumstances.\n"
+"\n"
+"It is not the purpose of this section to induce you to infringe any\n"
+"patents or other property right claims or to contest validity of any\n"
+"such claims; this section has the sole purpose of protecting the\n"
+"integrity of the free software distribution system, which is\n"
+"implemented by public license practices.  Many people have made\n"
+"generous contributions to the wide range of software distributed\n"
+"through that system in reliance on consistent application of that\n"
+"system; it is up to the author/donor to decide if he or she is willing\n"
+"to distribute software through any other system and a licensee cannot\n"
+"impose that choice.\n"
+"\n"
+"This section is intended to make thoroughly clear what is believed to\n"
+"be a consequence of the rest of this License.\n"
+"\n"
+"  8. If the distribution and/or use of the Program is restricted in\n"
+"certain countries either by patents or by copyrighted interfaces, the\n"
+"original copyright holder who places the Program under this License\n"
+"may add an explicit geographical distribution limitation excluding\n"
+"those countries, so that distribution is permitted only in or among\n"
+"countries not thus excluded.  In such case, this License incorporates\n"
+"the limitation as if written in the body of this License.\n"
+"\n"
+"  9. The Free Software Foundation may publish revised and/or new versions\n"
+"of the General Public License from time to time.  Such new versions will\n"
+"be similar in spirit to the present version, but may differ in detail to\n"
+"address new problems or concerns.\n"
+"\n"
+"Each version is given a distinguishing version number.  If the Program\n"
+"specifies a version number of this License which applies to it and \"any\n"
+"later version\", you have the option of following the terms and conditions\n"
+"either of that version or of any later version published by the Free\n"
+"Software Foundation.  If the Program does not specify a version number of\n"
+"this License, you may choose any version ever published by the Free "
+"Software\n"
+"Foundation.\n"
+"\n"
+"  10. If you wish to incorporate parts of the Program into other free\n"
+"programs whose distribution conditions are different, write to the author\n"
+"to ask for permission.  For software which is copyrighted by the Free\n"
+"Software Foundation, write to the Free Software Foundation; we sometimes\n"
+"make exceptions for this.  Our decision will be guided by the two goals\n"
+"of preserving the free status of all derivatives of our free software and\n"
+"of promoting the sharing and reuse of software generally.\n"
+"\n"
+"\t\t\t    NO WARRANTY\n"
+"\n"
+"  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY\n"
+"FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN\n"
+"OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES\n"
+"PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER "
+"EXPRESSED\n"
+"OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\n"
+"MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS\n"
+"TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE\n"
+"PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,\n"
+"REPAIR OR CORRECTION.\n"
+"\n"
+"  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING\n"
+"WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR\n"
+"REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,\n"
+"INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING\n"
+"OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED\n"
+"TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY\n"
+"YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER\n"
+"PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE\n"
+"POSSIBILITY OF SUCH DAMAGES.\n"
+"\n"
+"\t\t     END OF TERMS AND CONDITIONS\n"
+"\n"
+"\t    How to Apply These Terms to Your New Programs\n"
+"\n"
+"  If you develop a new program, and you want it to be of the greatest\n"
+"possible use to the public, the best way to achieve this is to make it\n"
+"free software which everyone can redistribute and change under these terms.\n"
+"\n"
+"  To do so, attach the following notices to the program.  It is safest\n"
+"to attach them to the start of each source file to most effectively\n"
+"convey the exclusion of warranty; and each file should have at least\n"
+"the \"copyright\" line and a pointer to where the full notice is found.\n"
+"\n"
+"    <one line to give the program's name and a brief idea of what it does.>\n"
+"    Copyright (C) <year>  <name of author>\n"
+"\n"
+"    This program is free software; you can redistribute it and/or modify\n"
+"    it under the terms of the GNU General Public License as published by\n"
+"    the Free Software Foundation; either version 2 of the License, or\n"
+"    (at your option) any later version.\n"
+"\n"
+"    This program is distributed in the hope that it will be useful,\n"
+"    but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"    GNU General Public License for more details.\n"
+"\n"
+"    You should have received a copy of the GNU General Public License along\n"
+"    with this program; if not, write to the Free Software Foundation, Inc.,\n"
+"    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
+"\n"
+"Also add information on how to contact you by electronic and paper mail.\n"
+"\n"
+"If the program is interactive, make it output a short notice like this\n"
+"when it starts in an interactive mode:\n"
+"\n"
+"    Gnomovision version 69, Copyright (C) year name of author\n"
+"    Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show "
+"w'.\n"
+"    This is free software, and you are welcome to redistribute it\n"
+"    under certain conditions; type `show c' for details.\n"
+"\n"
+"The hypothetical commands `show w' and `show c' should show the appropriate\n"
+"parts of the General Public License.  Of course, the commands you use may\n"
+"be called something other than `show w' and `show c'; they could even be\n"
+"mouse-clicks or menu items--whatever suits your program.\n"
+"\n"
+"You should also get your employer (if you work as a programmer) or your\n"
+"school, if any, to sign a \"copyright disclaimer\" for the program, if\n"
+"necessary.  Here is a sample; alter the names:\n"
+"\n"
+"  Yoyodyne, Inc., hereby disclaims all copyright interest in the program\n"
+"  `Gnomovision' (which makes passes at compilers) written by James Hacker.\n"
+"\n"
+"  <signature of Ty Coon>, 1 April 1989\n"
+"  Ty Coon, President of Vice\n"
+"\n"
+"This General Public License does not permit incorporating your program into\n"
+"proprietary programs.  If your program is a subroutine library, you may\n"
+"consider it more useful to permit linking proprietary applications with the\n"
+"library.  If this is what you want to do, use the GNU Lesser General\n"
+"Public License instead of this License."
+msgstr ""
+"  GNU GENERAL PUBLIC LICENSE\n"
+"\t\t       Version 2, June 1991\n"
+"\n"
+" Copyright (C) 1989, 1991 Free Software Foundation, Inc.,\n"
+" 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA\n"
+" Everyone is permitted to copy and distribute verbatim copies\n"
+" of this license document, but changing it is not allowed.\n"
+"\n"
+"\t\t\t    Preamble\n"
+"\n"
+"  The licenses for most software are designed to take away your\n"
+"freedom to share and change it.  By contrast, the GNU General Public\n"
+"License is intended to guarantee your freedom to share and change free\n"
+"software--to make sure the software is free for all its users.  This\n"
+"General Public License applies to most of the Free Software\n"
+"Foundation's software and to any other program whose authors commit to\n"
+"using it.  (Some other Free Software Foundation software is covered by\n"
+"the GNU Lesser General Public License instead.)  You can apply it to\n"
+"your programs, too.\n"
+"\n"
+"  When we speak of free software, we are referring to freedom, not\n"
+"price.  Our General Public Licenses are designed to make sure that you\n"
+"have the freedom to distribute copies of free software (and charge for\n"
+"this service if you wish), that you receive source code or can get it\n"
+"if you want it, that you can change the software or use pieces of it\n"
+"in new free programs; and that you know you can do these things.\n"
+"\n"
+"  To protect your rights, we need to make restrictions that forbid\n"
+"anyone to deny you these rights or to ask you to surrender the rights.\n"
+"These restrictions translate to certain responsibilities for you if you\n"
+"distribute copies of the software, or if you modify it.\n"
+"\n"
+"  For example, if you distribute copies of such a program, whether\n"
+"gratis or for a fee, you must give the recipients all the rights that\n"
+"you have.  You must make sure that they, too, receive or can get the\n"
+"source code.  And you must show them these terms so they know their\n"
+"rights.\n"
+"\n"
+"  We protect your rights with two steps: (1) copyright the software, and\n"
+"(2) offer you this license which gives you legal permission to copy,\n"
+"distribute and/or modify the software.\n"
+"\n"
+"  Also, for each author's protection and ours, we want to make certain\n"
+"that everyone understands that there is no warranty for this free\n"
+"software.  If the software is modified by someone else and passed on, we\n"
+"want its recipients to know that what they have is not the original, so\n"
+"that any problems introduced by others will not reflect on the original\n"
+"authors' reputations.\n"
+"\n"
+"  Finally, any free program is threatened constantly by software\n"
+"patents.  We wish to avoid the danger that redistributors of a free\n"
+"program will individually obtain patent licenses, in effect making the\n"
+"program proprietary.  To prevent this, we have made it clear that any\n"
+"patent must be licensed for everyone's free use or not licensed at all.\n"
+"\n"
+"  The precise terms and conditions for copying, distribution and\n"
+"modification follow.\n"
+"\n"
+"\t\t    GNU GENERAL PUBLIC LICENSE\n"
+"   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n"
+"\n"
+"  0. This License applies to any program or other work which contains\n"
+"a notice placed by the copyright holder saying it may be distributed\n"
+"under the terms of this General Public License.  The \"Program\", below,\n"
+"refers to any such program or work, and a \"work based on the Program\"\n"
+"means either the Program or any derivative work under copyright law:\n"
+"that is to say, a work containing the Program or a portion of it,\n"
+"either verbatim or with modifications and/or translated into another\n"
+"language.  (Hereinafter, translation is included without limitation in\n"
+"the term \"modification\".)  Each licensee is addressed as \"you\".\n"
+"\n"
+"Activities other than copying, distribution and modification are not\n"
+"covered by this License; they are outside its scope.  The act of\n"
+"running the Program is not restricted, and the output from the Program\n"
+"is covered only if its contents constitute a work based on the\n"
+"Program (independent of having been made by running the Program).\n"
+"Whether that is true depends on what the Program does.\n"
+"\n"
+"  1. You may copy and distribute verbatim copies of the Program's\n"
+"source code as you receive it, in any medium, provided that you\n"
+"conspicuously and appropriately publish on each copy an appropriate\n"
+"copyright notice and disclaimer of warranty; keep intact all the\n"
+"notices that refer to this License and to the absence of any warranty;\n"
+"and give any other recipients of the Program a copy of this License\n"
+"along with the Program.\n"
+"\n"
+"You may charge a fee for the physical act of transferring a copy, and\n"
+"you may at your option offer warranty protection in exchange for a fee.\n"
+"\n"
+"  2. You may modify your copy or copies of the Program or any portion\n"
+"of it, thus forming a work based on the Program, and copy and\n"
+"distribute such modifications or work under the terms of Section 1\n"
+"above, provided that you also meet all of these conditions:\n"
+"\n"
+"    a) You must cause the modified files to carry prominent notices\n"
+"    stating that you changed the files and the date of any change.\n"
+"\n"
+"    b) You must cause any work that you distribute or publish, that in\n"
+"    whole or in part contains or is derived from the Program or any\n"
+"    part thereof, to be licensed as a whole at no charge to all third\n"
+"    parties under the terms of this License.\n"
+"\n"
+"    c) If the modified program normally reads commands interactively\n"
+"    when run, you must cause it, when started running for such\n"
+"    interactive use in the most ordinary way, to print or display an\n"
+"    announcement including an appropriate copyright notice and a\n"
+"    notice that there is no warranty (or else, saying that you provide\n"
+"    a warranty) and that users may redistribute the program under\n"
+"    these conditions, and telling the user how to view a copy of this\n"
+"    License.  (Exception: if the Program itself is interactive but\n"
+"    does not normally print such an announcement, your work based on\n"
+"    the Program is not required to print an announcement.)\n"
+"\n"
+"These requirements apply to the modified work as a whole.  If\n"
+"identifiable sections of that work are not derived from the Program,\n"
+"and can be reasonably considered independent and separate works in\n"
+"themselves, then this License, and its terms, do not apply to those\n"
+"sections when you distribute them as separate works.  But when you\n"
+"distribute the same sections as part of a whole which is a work based\n"
+"on the Program, the distribution of the whole must be on the terms of\n"
+"this License, whose permissions for other licensees extend to the\n"
+"entire whole, and thus to each and every part regardless of who wrote it.\n"
+"\n"
+"Thus, it is not the intent of this section to claim rights or contest\n"
+"your rights to work written entirely by you; rather, the intent is to\n"
+"exercise the right to control the distribution of derivative or\n"
+"collective works based on the Program.\n"
+"\n"
+"In addition, mere aggregation of another work not based on the Program\n"
+"with the Program (or with a work based on the Program) on a volume of\n"
+"a storage or distribution medium does not bring the other work under\n"
+"the scope of this License.\n"
+"\n"
+"  3. You may copy and distribute the Program (or a work based on it,\n"
+"under Section 2) in object code or executable form under the terms of\n"
+"Sections 1 and 2 above provided that you also do one of the following:\n"
+"\n"
+"    a) Accompany it with the complete corresponding machine-readable\n"
+"    source code, which must be distributed under the terms of Sections\n"
+"    1 and 2 above on a medium customarily used for software interchange; "
+"or,\n"
+"\n"
+"    b) Accompany it with a written offer, valid for at least three\n"
+"    years, to give any third party, for a charge no more than your\n"
+"    cost of physically performing source distribution, a complete\n"
+"    machine-readable copy of the corresponding source code, to be\n"
+"    distributed under the terms of Sections 1 and 2 above on a medium\n"
+"    customarily used for software interchange; or,\n"
+"\n"
+"    c) Accompany it with the information you received as to the offer\n"
+"    to distribute corresponding source code.  (This alternative is\n"
+"    allowed only for noncommercial distribution and only if you\n"
+"    received the program in object code or executable form with such\n"
+"    an offer, in accord with Subsection b above.)\n"
+"\n"
+"The source code for a work means the preferred form of the work for\n"
+"making modifications to it.  For an executable work, complete source\n"
+"code means all the source code for all modules it contains, plus any\n"
+"associated interface definition files, plus the scripts used to\n"
+"control compilation and installation of the executable.  However, as a\n"
+"special exception, the source code distributed need not include\n"
+"anything that is normally distributed (in either source or binary\n"
+"form) with the major components (compiler, kernel, and so on) of the\n"
+"operating system on which the executable runs, unless that component\n"
+"itself accompanies the executable.\n"
+"\n"
+"If distribution of executable or object code is made by offering\n"
+"access to copy from a designated place, then offering equivalent\n"
+"access to copy the source code from the same place counts as\n"
+"distribution of the source code, even though third parties are not\n"
+"compelled to copy the source along with the object code.\n"
+"\n"
+"  4. You may not copy, modify, sublicense, or distribute the Program\n"
+"except as expressly provided under this License.  Any attempt\n"
+"otherwise to copy, modify, sublicense or distribute the Program is\n"
+"void, and will automatically terminate your rights under this License.\n"
+"However, parties who have received copies, or rights, from you under\n"
+"this License will not have their licenses terminated so long as such\n"
+"parties remain in full compliance.\n"
+"\n"
+"  5. You are not required to accept this License, since you have not\n"
+"signed it.  However, nothing else grants you permission to modify or\n"
+"distribute the Program or its derivative works.  These actions are\n"
+"prohibited by law if you do not accept this License.  Therefore, by\n"
+"modifying or distributing the Program (or any work based on the\n"
+"Program), you indicate your acceptance of this License to do so, and\n"
+"all its terms and conditions for copying, distributing or modifying\n"
+"the Program or works based on it.\n"
+"\n"
+"  6. Each time you redistribute the Program (or any work based on the\n"
+"Program), the recipient automatically receives a license from the\n"
+"original licensor to copy, distribute or modify the Program subject to\n"
+"these terms and conditions.  You may not impose any further\n"
+"restrictions on the recipients' exercise of the rights granted herein.\n"
+"You are not responsible for enforcing compliance by third parties to\n"
+"this License.\n"
+"\n"
+"  7. If, as a consequence of a court judgment or allegation of patent\n"
+"infringement or for any other reason (not limited to patent issues),\n"
+"conditions are imposed on you (whether by court order, agreement or\n"
+"otherwise) that contradict the conditions of this License, they do not\n"
+"excuse you from the conditions of this License.  If you cannot\n"
+"distribute so as to satisfy simultaneously your obligations under this\n"
+"License and any other pertinent obligations, then as a consequence you\n"
+"may not distribute the Program at all.  For example, if a patent\n"
+"license would not permit royalty-free redistribution of the Program by\n"
+"all those who receive copies directly or indirectly through you, then\n"
+"the only way you could satisfy both it and this License would be to\n"
+"refrain entirely from distribution of the Program.\n"
+"\n"
+"If any portion of this section is held invalid or unenforceable under\n"
+"any particular circumstance, the balance of the section is intended to\n"
+"apply and the section as a whole is intended to apply in other\n"
+"circumstances.\n"
+"\n"
+"It is not the purpose of this section to induce you to infringe any\n"
+"patents or other property right claims or to contest validity of any\n"
+"such claims; this section has the sole purpose of protecting the\n"
+"integrity of the free software distribution system, which is\n"
+"implemented by public license practices.  Many people have made\n"
+"generous contributions to the wide range of software distributed\n"
+"through that system in reliance on consistent application of that\n"
+"system; it is up to the author/donor to decide if he or she is willing\n"
+"to distribute software through any other system and a licensee cannot\n"
+"impose that choice.\n"
+"\n"
+"This section is intended to make thoroughly clear what is believed to\n"
+"be a consequence of the rest of this License.\n"
+"\n"
+"  8. If the distribution and/or use of the Program is restricted in\n"
+"certain countries either by patents or by copyrighted interfaces, the\n"
+"original copyright holder who places the Program under this License\n"
+"may add an explicit geographical distribution limitation excluding\n"
+"those countries, so that distribution is permitted only in or among\n"
+"countries not thus excluded.  In such case, this License incorporates\n"
+"the limitation as if written in the body of this License.\n"
+"\n"
+"  9. The Free Software Foundation may publish revised and/or new versions\n"
+"of the General Public License from time to time.  Such new versions will\n"
+"be similar in spirit to the present version, but may differ in detail to\n"
+"address new problems or concerns.\n"
+"\n"
+"Each version is given a distinguishing version number.  If the Program\n"
+"specifies a version number of this License which applies to it and \"any\n"
+"later version\", you have the option of following the terms and conditions\n"
+"either of that version or of any later version published by the Free\n"
+"Software Foundation.  If the Program does not specify a version number of\n"
+"this License, you may choose any version ever published by the Free "
+"Software\n"
+"Foundation.\n"
+"\n"
+"  10. If you wish to incorporate parts of the Program into other free\n"
+"programs whose distribution conditions are different, write to the author\n"
+"to ask for permission.  For software which is copyrighted by the Free\n"
+"Software Foundation, write to the Free Software Foundation; we sometimes\n"
+"make exceptions for this.  Our decision will be guided by the two goals\n"
+"of preserving the free status of all derivatives of our free software and\n"
+"of promoting the sharing and reuse of software generally.\n"
+"\n"
+"\t\t\t    NO WARRANTY\n"
+"\n"
+"  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY\n"
+"FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN\n"
+"OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES\n"
+"PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER "
+"EXPRESSED\n"
+"OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\n"
+"MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS\n"
+"TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE\n"
+"PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,\n"
+"REPAIR OR CORRECTION.\n"
+"\n"
+"  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING\n"
+"WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR\n"
+"REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,\n"
+"INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING\n"
+"OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED\n"
+"TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY\n"
+"YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER\n"
+"PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE\n"
+"POSSIBILITY OF SUCH DAMAGES.\n"
+"\n"
+"\t\t     END OF TERMS AND CONDITIONS\n"
+"\n"
+"\t    How to Apply These Terms to Your New Programs\n"
+"\n"
+"  If you develop a new program, and you want it to be of the greatest\n"
+"possible use to the public, the best way to achieve this is to make it\n"
+"free software which everyone can redistribute and change under these terms.\n"
+"\n"
+"  To do so, attach the following notices to the program.  It is safest\n"
+"to attach them to the start of each source file to most effectively\n"
+"convey the exclusion of warranty; and each file should have at least\n"
+"the \"copyright\" line and a pointer to where the full notice is found.\n"
+"\n"
+"    <one line to give the program's name and a brief idea of what it does.>\n"
+"    Copyright (C) <year>  <name of author>\n"
+"\n"
+"    This program is free software; you can redistribute it and/or modify\n"
+"    it under the terms of the GNU General Public License as published by\n"
+"    the Free Software Foundation; either version 2 of the License, or\n"
+"    (at your option) any later version.\n"
+"\n"
+"    This program is distributed in the hope that it will be useful,\n"
+"    but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"    GNU General Public License for more details.\n"
+"\n"
+"    You should have received a copy of the GNU General Public License along\n"
+"    with this program; if not, write to the Free Software Foundation, Inc.,\n"
+"    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
+"\n"
+"Also add information on how to contact you by electronic and paper mail.\n"
+"\n"
+"If the program is interactive, make it output a short notice like this\n"
+"when it starts in an interactive mode:\n"
+"\n"
+"    Gnomovision version 69, Copyright (C) year name of author\n"
+"    Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show "
+"w'.\n"
+"    This is free software, and you are welcome to redistribute it\n"
+"    under certain conditions; type `show c' for details.\n"
+"\n"
+"The hypothetical commands `show w' and `show c' should show the appropriate\n"
+"parts of the General Public License.  Of course, the commands you use may\n"
+"be called something other than `show w' and `show c'; they could even be\n"
+"mouse-clicks or menu items--whatever suits your program.\n"
+"\n"
+"You should also get your employer (if you work as a programmer) or your\n"
+"school, if any, to sign a \"copyright disclaimer\" for the program, if\n"
+"necessary.  Here is a sample; alter the names:\n"
+"\n"
+"  Yoyodyne, Inc., hereby disclaims all copyright interest in the program\n"
+"  `Gnomovision' (which makes passes at compilers) written by James Hacker.\n"
+"\n"
+"  <signature of Ty Coon>, 1 April 1989\n"
+"  Ty Coon, President of Vice\n"
+"\n"
+"This General Public License does not permit incorporating your program into\n"
+"proprietary programs.  If your program is a subroutine library, you may\n"
+"consider it more useful to permit linking proprietary applications with the\n"
+"library.  If this is what you want to do, use the GNU Lesser General\n"
+"Public License instead of this License."
+
+#: data/glade/gtk-preview.glade:26
+msgid "_Fichier"
+msgstr "_Fichier"
+
+#: data/glade/gtk-preview.glade:83
+msgid "É_dition"
+msgstr "É_dition"
+
+#: data/glade/gtk-preview.glade:127
+msgid "Aid_e"
+msgstr "Aid_e"
+
+#: data/glade/gtk-preview.glade:154
+msgid ""
+"combobox\n"
+"test"
+msgstr ""
+"combobox\n"
+"test"
+
+#: data/glade/gtk-preview.glade:167
+msgid "button"
+msgstr "button"
+
+#: data/glade/gtk-preview.glade:179
+msgid "togglebutton"
+msgstr "togglebutton"
+
+#: data/glade/gtk-preview.glade:200 data/glade/gtk-preview.glade:213
+msgid "radiobutton"
+msgstr "radiobutton"
+
+#: data/glade/gtk-preview.glade:227
+msgid "checkbutton"
+msgstr "checkbutton"
+
+#: data/glade/gtk-preview.glade:285
+msgid "label"
+msgstr "label"
+
+#: data/glade/gtk-preview.glade:296
+msgid "entry"
+msgstr "entry"
+
+#: data/glade/gtk-preview.glade:349
+msgid "page 1"
+msgstr "page 1"
+
+#: data/glade/gtk-preview.glade:403
+msgid "<b>curseur</b>"
+msgstr "<b>curseur</b>"
+
+#: data/glade/gtk-preview.glade:430
+msgid "<b>zone de saisie</b>"
+msgstr "<b>zone de saisie</b>"
+
+#: data/glade/gtk-preview.glade:452
+msgid ""
+"Type some text here\n"
+"to check if your\n"
+"theme has a problem\n"
+"with the text widget.\n"
+"Also right-click here\n"
+"for a popup-menu sample."
+msgstr ""
+"Type some text here\n"
+"to check if your\n"
+"theme has a problem\n"
+"with the text widget.\n"
+"Also right-click here\n"
+"for a popup-menu sample."
+
+#: data/glade/gtk-preview.glade:463
+msgid "<b>texte</b>"
+msgstr "<b>texte</b>"
+
+#: data/glade/gtk-preview.glade:483
+msgid "page 2"
+msgstr "page 2"
+
+#: data/glade/gtk-preview.glade:504
+msgid "informations"
+msgstr "informations"
+
+#: data/glade/gtk-preview.glade:517
+msgid "<b>Preview</b>"
+msgstr "<b>Preview</b>"
+
+#: data/glade/install-preview.glade:50
+#, fuzzy
+msgid "<b>Wallpapers :</b>"
+msgstr "<b>Parametres :</b>"
+
+#: data/glade/install-preview.glade:82
+#, fuzzy
+msgid "<b>Gtk themes :</b>"
+msgstr "<b>Gtk themes selector :</b>"
+
+#: data/glade/install-preview.glade:113
+#, fuzzy
+msgid "<b>Icons themes :</b>"
+msgstr "Icons theme :"
+
+#: data/glade/install-preview.glade:144
+#, fuzzy
+msgid "<b>Metacity themes :</b>"
+msgstr "<b>Gtk themes selector :</b>"
+
+#: data/glade/install-preview.glade:175
+#, fuzzy
+msgid "<b>Cursors themes :</b>"
+msgstr "<b>Current Operations :</b>"
+
+#: data/glade/install-preview.glade:206
+#, fuzzy
+msgid "<b>Emerald themes :</b>"
+msgstr "<b>Parametres :</b>"
+
+#: data/glade/install-preview.glade:237
+#, fuzzy
+msgid "<b>Cubemodels themes :</b>"
+msgstr "<b>Themes manager :</b>"
+
+#: data/glade/install-preview.glade:268
+#, fuzzy
+msgid "<b>Walltimes :</b>"
+msgstr "<b>Parametres :</b>"
+
+#: data/glade/install-preview.glade:299
+#, fuzzy
+msgid "<b>Fullpacks themes :</b>"
+msgstr "<b>Gtk themes selector :</b>"
+
+#: data/glade/static_walldyn.glade:35
+#, fuzzy
+msgid "Length : "
+msgstr "Licence : "
+
+#: data/glade/static_walldyn.glade:61 data/glade/transition_walldyn.glade:61
+msgid "H"
+msgstr "H"
+
+#: data/glade/static_walldyn.glade:84 data/glade/transition_walldyn.glade:84
+msgid "M"
+msgstr "M"
+
+#: data/glade/static_walldyn.glade:111 data/glade/transition_walldyn.glade:102
+msgid "Options :"
+msgstr "Options :"
+
+#: data/glade/static_walldyn.glade:193
+#, fuzzy
+msgid "<b>Static</b>"
+msgstr "<b>texte</b>"
+
+#: data/glade/transition_walldyn.glade:35
+msgid "Transition length :"
+msgstr "Transition length :"
+
+#: data/glade/transition_walldyn.glade:150
+msgid "From"
+msgstr "From"
+
+#: data/glade/transition_walldyn.glade:189
+msgid "To"
+msgstr "To"
+
+#: data/glade/transition_walldyn.glade:228
+#, fuzzy
+msgid "<b>Transition</b>"
+msgstr "<b>Informations :</b>"
+
+#~ msgid "Level button"
+#~ msgstr "Level button"
+
+#, fuzzy
+#~ msgid "New walldyn"
+#~ msgstr "Remove wallpaper"
+
+#~ msgid "wallpaper %s removed successfully"
+#~ msgstr "wallpaper %s removed successfully"
+
+#~ msgid "Xsplash"
+#~ msgstr "Xsplash"
+
+#~ msgid "<b>Gdm components </b>"
+#~ msgstr "<b>Gdm components </b>"
+
+#~ msgid "Select a background as Xsplash : "
+#~ msgstr "Select a background as Xsplash : "
+
+#, fuzzy
+#~ msgid "Click to preview your Xsplash (press escape to exit)"
+#~ msgstr "Click to preview your xsplash (press esc to exit)"
+
+#~ msgid "<b>Xsplash </b>"
+#~ msgstr "<b>Xsplash </b>"
+
+#, fuzzy
+#~ msgid "Available themes"
+#~ msgstr "Available themes list"
+
+#~ msgid "gksudo -m \"Root password needed \" ''"
+#~ msgstr "gksudo -m \"Root password needed \" ''"
+
+#~ msgid "<b>Gdm/Xsplash Customisation :</b>"
+#~ msgstr "<b>Gdm/Xsplash Customisation :</b>"
+
+#~ msgid "Select a wallpaper in the list :"
+#~ msgstr "Select a wallpaper in the list :"
+
+#~ msgid ""
+#~ "Window decoration :\n"
+#~ "Manage and install your metacity/metacity themes"
+#~ msgstr ""
+#~ "Window decoration :\n"
+#~ "Manage and install your metacity/metacity themes"
+
+#~ msgid "gksudo -m \"Root password needed to apply this xsplash image\" ''"
+#~ msgstr "gksudo -m \"Root password needed to apply this xsplash image\" ''"
+
+#~ msgid ""
+#~ "Mozaique\n"
+#~ "Zoom\n"
+#~ "Centré\n"
+#~ "Redimensionné\n"
+#~ "Pleine écran"
+#~ msgstr ""
+#~ "Mozaique\n"
+#~ "Zoom\n"
+#~ "Centré\n"
+#~ "Redimensionné\n"
+#~ "Pleine écran"
+
+#~ msgid "Couleur"
+#~ msgstr "Couleur"
+
+#~ msgid ""
+#~ "Couleur unie\n"
+#~ "Dégradé horizontal\n"
+#~ "Dégradé vertical"
+#~ msgstr ""
+#~ "Couleur unie\n"
+#~ "Dégradé horizontal\n"
+#~ "Dégradé vertical"
+
+#~ msgid "Configuration"
+#~ msgstr "Configuration"

@@ -1,0 +1,10 @@
+#!/usr/bin/python
+
+import os
+if os.geteuid() == 0:
+    print 'It is not recommended to start Gstyle as root.'
+
+import os, sys, gstyle 
+path = os.path.dirname(os.path.abspath(gstyle.__file__))
+os.chdir(path)
+os.execv('/usr/bin/env', ['/usr/bin/env', 'python', 'gstyle.py'])
