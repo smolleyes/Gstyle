@@ -123,7 +123,7 @@ class WallPaperDict(dict):
                     if re.search('.xml$',file):
                         walldyn_xml = os.path.join(item,file)
                         walldyn_list.append(walldyn_xml)
-                    if re.search('(.png|.svg|.jpeg|.jpg)$', file):
+                    elif re.search('(.png|.svg|.jpeg|.jpg)$', file):
                         wallstat_list.append(os.path.join(item,file))
             if re.search('(.png|.svg|.jpeg|.jpg)$', item):
                 wallstat_list.append(item)
