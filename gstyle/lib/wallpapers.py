@@ -123,6 +123,7 @@ class WallPaperDict(dict):
                     if re.search('.xml$',file):
                         walldyn_xml = os.path.join(item,file)
                         walldyn_list.append(walldyn_xml)
+                        break
                     elif re.search('(.png|.svg|.jpeg|.jpg)$', file):
                         wallstat_list.append(os.path.join(item,file))
             if re.search('(.png|.svg|.jpeg|.jpg)$', item):
@@ -374,9 +375,12 @@ class WallDyn(WallStat):
         self.flow_img = []
         if not os.path.exists(self.filename):
             return
-        file_obj = open(self.filename)
-        xml_obj = minidom.parse(file_obj)
-        file_obj.close()
+        try:
+            file_obj = open(self.filename)
+            file_obj.close()
+        except:
+            print "the walldyn xml %s is corrupted" % self.filename
+            return
         try:
             list_background = xml_obj.getElementsByTagName("background")
         except:
